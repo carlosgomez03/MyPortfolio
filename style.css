@@ -12,17 +12,20 @@ body {
 }
 
 button {
-    background-color: white;
+    background-color: transparent;
     font-family: "Barlow";
+    font-weight: bold;
     font-size: 25px;
-    margin-left: 115px;
+    margin-left: 90px;
     border-radius: 8px;
     border-width: 0;
+    text-align:center;
 }
 
 button:hover {
-    background-color: grey;
+    background-color: transparent;
     color: white;
+    cursor: pointer;
 }
 
 #imgdiv {
@@ -31,7 +34,7 @@ button:hover {
 
 #textobienvenida {
     padding-top: 60px;
-    padding-left: 530px;
+    padding-left: 600px;
     padding-right: 65px;
 
 }
@@ -43,6 +46,7 @@ button:hover {
     color: black;
     align-items:baseline;
     padding-right: 0;
+    text-align:center;
 }
 
 #nametitle, #pleca {
@@ -55,12 +59,12 @@ button:hover {
 }
 
 #foto {
-    width: 400px;
-    height: 400px;
+    width: 500px;
+    height: 500px;
     border-radius: 50%;
     margin-left: 50px;
-    padding-top: 40px;
-    padding-bottom: 40px;
+    padding-top: 28px;
+    padding-bottom: 28px;
 }
 
 h2 {
@@ -93,7 +97,7 @@ header {
 
 .nav_links li {
     display: inline-block;
-    padding: 10px 20px;
+    padding: 0px 20px;
     
 }
 
