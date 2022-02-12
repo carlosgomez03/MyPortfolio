@@ -213,3 +213,74 @@ header {
     height: 50%;
     float: left;
 }
+
+#SkillList {
+    list-style: none;
+    padding-left: 70px;
+}
+
+#skills {
+    display: inline-block;
+    text-align: center;
+    vertical-align: center;
+    font-family: "Barlow";
+    font-weight: 500;
+    font-size: 30px;
+    color: white;
+    padding: 10px 50px;
+}
+
+#SkillText {
+    font-family: "Barlow";
+    font-weight: 500;
+    font-size: 30px;
+    color: black;
+    padding: 10px 80px;
+}
+
+#Soft {
+    display: inline-block;
+    text-align: center;
+    vertical-align: center;
+    font-family: "Barlow";
+    font-weight: 500;
+    font-size: 30px;
+    color: white;
+    padding: 10px 50px;
+}
+
+#SoftList {
+    list-style: none;
+    align-items: center;
+    text-align: center;
+    margin-right: 65px;
+
+}
+
+#ContactoQ {
+    background-color: black;
+    font-family: "Barlow";
+    color: white;
+    padding-left: 50px;
+    font-weight: bold;
+    font-size: 25px;
+    margin-left: 480px;
+    border-radius: 8px;
+    border-width: 1px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+#ContactoQ:hover {
+    background-color: white;
+    font-family: "Barlow";
+    color: black;
+    padding-left: 50px;
+    font-weight: bold;
+    font-size: 25px;
+    margin-left: 480px;
+    border-radius: 8px;
+    border-width: 1px;
+    text-align: center;
+    vertical-align: middle;
+}
