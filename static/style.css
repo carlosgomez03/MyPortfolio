@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,400;0,700;1,100&display=swap');
 
 header {
     box-sizing: border-box;
@@ -283,4 +283,55 @@ header {
     border-width: 1px;
     text-align: center;
     vertical-align: middle;
+}
+
+#TituloA {
+    font-family: "Barlow";
+    font-weight: 550;
+    font-size: 50px;
+    color: black;
+    align-items:baseline;
+    padding: 0 60px;
+    text-align:center;
+}
+
+#TextoA {
+    font-family: "Barlow";
+    font-weight: 500;
+    font-size: 30px;
+    color: black;
+    padding: 10px 100px;
+    text-align: center;  
+}
+
+#jobs {
+    width: 50%;
+    height: 50%;
+    float: left;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+#jobs h3 {
+    font-family: "Barlow";
+    font-weight: 700;
+    font-size: 25px;
+    color: black;
+    padding: 0px;
+}
+
+#jobs h4 {
+    font-family: "Barlow";
+    font-weight: 100;
+    font-size: 20px;
+    color: black;
+    padding: 0px;
+}
+
+#jobs p {
+    font-family: "Barlow";
+    font-weight: 500;
+    font-size: 28px;
+    color: black;
+    padding: 10px 20px;
 }
