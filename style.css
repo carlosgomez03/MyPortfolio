@@ -11,6 +11,16 @@ body {
     background-color: rgb(182, 172, 172);
 }
 
+#Contacto {
+    font-family: "Barlow";
+    font-weight: bold;
+    font-size: 40px;
+    color: black;
+    align-items:baseline;
+    padding-left: 70px;
+    margin-right: 40px;
+}
+
 button {
     background-color: transparent;
     font-family: "Barlow";
@@ -97,7 +107,7 @@ header {
 
 .nav_links li {
     display: inline-block;
-    padding: 0px 20px;
+    padding: 0px 5px;
     
 }
 
@@ -133,3 +143,67 @@ header {
     text-decoration: none;
 }
 
+#ContactLinks li, i {
+    list-style: none;
+    padding: 15px 30px;
+    font-size: 30px;
+}
+
+#ContactLinks a {
+    list-style: none;
+    font-size: 30px;
+}
+
+#ContactLinks a:hover {
+    list-style: none;
+    font-size: 30px;
+    color: gray;
+}
+
+#columnas {
+    float:left;
+    padding-right: 0px;
+}
+
+#floating {
+    float: center;
+    text-align: center;
+    padding-top: 35px;
+    padding-left: 600px;
+    padding-right: 110px;
+}
+
+#Conf {
+    font-family: "Barlow";
+    font-size: 35px;
+    color: black;
+    text-decoration: none;
+}
+
+#CallTo {
+    background-color: black;
+    font-family: "Barlow";
+    color: white;
+    padding-left: 35px;
+    font-weight: bold;
+    font-size: 25px;
+    margin-left: 0px;
+    border-radius: 8px;
+    border-width: 1px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+#CallTo:hover {
+    background-color: white;
+    font-family: "Barlow";
+    color: black;
+    padding-left: 35px;
+    font-weight: bold;
+    font-size: 25px;
+    margin-left: 0px;
+    border-radius: 8px;
+    border-width: 1px;
+    text-align: center;
+    vertical-align: middle;
+}
