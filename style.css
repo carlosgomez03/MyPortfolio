@@ -207,3 +207,9 @@ header {
     text-align: center;
     vertical-align: middle;
 }
+
+#skilldivs {
+    width: 50%;
+    height: 50%;
+    float: left;
+}
